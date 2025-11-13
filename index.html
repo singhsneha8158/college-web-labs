@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marwadi University </title>
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+color: #333;
+line-height: 1.6;
+}
+header {
+background: #062a4d;
+color: rgb(203, 190, 190);
+padding: 20px;
+text-align: center;
+}
+header .brand {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header .brand img {
+width: 80px;
+height: 80px;
+margin-right: 15px;
+}
+nav {
+margin-top: 10px;
+}
+nav a {
+color: rgb(173, 216, 236);
+margin: 0 12px;
+text-decoration: none;
+font-weight: bold;
+}
+nav a:hover {
+text-decoration: underline;
+}
+section {
+padding: 50px 20px;
+}
+section.alt {
+background: #f4f4f4;
+}
+section h2 {
+    text-align: center;
+margin-bottom: 20px;
+color: #003366;
+}
+.cards, .course-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+.card, .course {
+background: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow:2px 6px rgba(0,0,0,0.1);
+flex:250px;
+}
+.gallery {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+.gallery img {
+width: 300px;
+height: 200px;
+object-fit: cover;
+border-radius: 8px;
+}
+.gallery figcaption {
+text-align: center;
+font-weight: bold;
+margin-top: 5px;
+}
+.logo-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+justify-content: center;
+}
+.logo-grid img {
+width: 150px;
+height: 80px;
+object-fit: contain;
+background: white;
+padding: 10px;
+border-radius: 6px;
+box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.contact {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 30px;
+}
+.btn {
+display: inline-block;
+background: #003366;
+color: white;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+}
+.btn:hover {
+background: #0055a5;
+}
+footer {
+background: #003366;
+color: white;
+text-align: center;
+padding: 15px 0;
+margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">
+<img src="mulogo.jpeg" alt="MU Logo">
+<div>
+<h1>Marwadi University</h1>
+</div>
+<nav>
+<a href="#vision">Vision</a>
+<a href="#mission">Mission</a>
+<a href="#pso">PSOs</a>
+<a href="#courses">Courses</a>
+<a href="#gallery">Events</a>
+<a href="#recruiters">Recruiters</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="hero">
+<h2>Learn • Lead • Innovate</h2>
+<p>Empowering students with skills, research, and values for a better future.</p>
+</div>
+</header>
+<section id="vision">
+<div class="container">
+<h2>Vision</h2>
+<p>To be a globally admired center of innovation and excellence in higher education,
+research, and industry collaboration that fosters holistic development.</p>
+</div>
+</section>
+<section id="mission" class="alt">
+<div class="container">
+<h2>Mission</h2>
+<ul>
+<li>Deliver quality education that combines knowledge with practical application.</li>
+<li>Promote interdisciplinary research and entrepreneurship.</li>
+<li>Strengthen industry-academic partnerships for global exposure.</li>
+<li>Inculcate values, ethics, and leadership qualities.</li>
+</ul>
+</div>
+</section>
+<section id="pso">
+<h2>Program Specific Outcomes</h2>
+<div class="cards">
+<div class="card">
+<h3>PSO 1: Core Competence</h3>
+<p>Apply computing fundamentals to design, develop, and maintain software
+solutions.</p>
+</div>
+<div class="card">
+<h3>PSO 2: Emerging Tech</h3>
+<p>Use AI, ML, IoT, and Cloud technologies to solve industry and societal
+challenges.</p>
+</div>
+<div class="card">
+<h3>PSO 3: Professional Skills</h3>
+<p>Demonstrate teamwork, communication, and ethical practices in professional
+settings.</p>
+</div>
+</div>
+</section>
+<section id="courses" class="alt">
+<h2>Courses Offered</h2>
+<div class="course-grid">
+<div class="course">
+<h3>B.Tech (CSE)</h3>
+<ul>
+    <li>Duration: 4 Years | Intake: 180</li>
+<li>Electives: AI/ML, Cyber Security, Cloud Computing</li> </ul>
+</div>
+<div class="course">
+<h3>M.Tech (CSE)</h3>
+<ul>
+<li>Duration: 2 Years | Intake: 24</li>
+<li>Specialization in Data Science, IoT</li>
+</ul>
+</div>
+<div class="course">
+<h3>Ph.D (CSE)</h3>
+<ul>
+<li>Research in AI, Networks, Big Data</li> </ul>
+</div>
+<div class="course">
+<h3>MBA (FMS)</h3>
+<ul>
+<li>Duration: 2 Years</li>
+<li>Specialization: Finance, HR, Marketing, IB, Supply Chain</li> </ul>
+</div>
+<div class="course">
+<h3>BCA (FOCA)</h3> <ul>
+<li>Duration: 3 Years</li>
+<li>Specialization in AI & IT</li> </ul>
+</div>
+</div>
+</section>
+<section id="gallery">
+<h2>Image Gallery — MU Events</h2>
+<div class="gallery">
+<figure>
+<img src="HACKTHONIMG.avif" alt="Hackathon">
+<figcaption>Hackathon</figcaption>
+</figure>
+<figure>
+<img src="CULMU.jpg" alt="Cultural Fest">
+<figcaption>Cultural Fest</figcaption>
+</figure>
+<figure>
+<img src="WORKSOPMU.webp" alt="Workshop">
+<figcaption>Workshop</figcaption>
+</figure>
+</div>
+</section>
+<section id="recruiters" class="alt">
+<h2>Top Recruiters</h2>
+<div class="logo-grid">
+<img src="tcs.png" alt="TCS">
+<img src="infosys.png" alt="Infosys">
+<img src="wipro.png" alt="Wipro">
+<img src="ibm.webp" alt="IBM">
+</div>
+</section>
+<section id="contact">
+<div class="contact">
+<div>
+<h2>Contact</h2>
+<p><strong>Address:</strong> Marwadi University, Rajkot-Morbi Highway, Rajkot,
+Gujarat - 360003</p>
+<p><strong>Email:</strong> info@marwadiuniversity.ac.in</p>
+<p><strong>Phone:</strong> +91 281 7117000</p>
+</div>
+<div>
+<h3>Admissions Open</h3>
+<p>Apply now for 2025–26 academic year.</p>
+<a class="btn" href="https://www.marwadiuniversity.ac.in/" target="_blank">Apply
+Now</a>
+</div>
+</div>
+</section>
+<footer>
+<p>© 2025 Marwadi University — Rajkot</p>
+</footer>
+</body>
+</html>
